@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"name": {
+			"value": "CCP"
+		},
+		"location": {
+			"value": "eastasia"
+		},
+		"sku": {
+			"value": "Free"
+		},
+		"skucode": {
+			"value": "Free"
+		},
+		"repositoryUrl": {
+			"value": "https://dev.azure.com/sreekanthkrishnan215/CCPTEST/_git/CCPTEST"
+		},
+		"repositoryToken": {
+			"value": "6eml7vrjspg36miiogqnseom5yudj3mmog7375pphzp4f6ama4rq"
+		},
+		"branch": {
+			"value": "main"
+		},
+		"appLocation": {
+			"value": "/"
+		},
+		"apiLocation": {
+			"value": ""
+		},
+		"appArtifactLocation": {
+			"value": "build"
+		},
+		"areStaticSitesDistributedBackendsEnabled": {
+			"value": false
+		}
+	}
+}
